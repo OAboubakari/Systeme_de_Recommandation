@@ -1,19 +1,49 @@
-# Système de Recommandation de cultures à l'aide du Machine Learning
+# 🌱 Système de Recommandation Agricole (IA)
 
-## Contexte
-L'agriculture de précision est en plein essor. Elle aide les agriculteurs à prendre des décisions éclairées concernant leur stratégie agricole. 
-Nous avons ici un jeu de données qui nous a permis de construire un modèle prédictif pour recommander les cultures les plus adaptées à une exploitation donnée, en fonction de divers paramètres tels que :
+## 📌 Description
+Ce projet utilise le Machine Learning pour recommander la culture la plus adaptée en fonction des caractéristiques du sol et des conditions climatiques.
 
-N - La Teneur en azote du sol
+👉 Objectif : aider les agriculteurs à prendre de meilleures décisions agricoles basées sur la data.
 
-P - La Teneur en phosphore du sol
+---
 
-K - La Teneur en potassium du sol
+## ⚙️ Technologies utilisées
 
-Température - La Température en degrés Celsius
+- Python 🐍
+- Scikit-learn 🤖
+- Pandas & NumPy 📊
+- Flask 🌐
+- Jupyter Notebook 📓
 
-Humidité - L'Humidité relative en %
+---
 
-PhD - Le pH du sol
+## 📊 Données utilisées
 
-Précipitations - Les Précipitations en mm
+Le modèle se base sur les variables suivantes :
+
+- Azote (N)
+- Phosphore (P)
+- Potassium (K)
+- Température 🌡️
+- Humidité 💧
+- pH du sol
+- Pluviométrie 🌧️
+
+---
+
+## 🧠 Modèle Machine Learning
+
+- Algorithme : Decision Tree Classifier
+- Prétraitement :
+  - StandardScaler
+  - MinMaxScaler
+- Évaluation : Accuracy Score
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/OAboubakari/Systeme_de_Recommandation.git
+cd Systeme_de_Recommandation
+pip install -r requirements.txt
